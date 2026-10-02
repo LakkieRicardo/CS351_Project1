@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base: "/cs351.lakkie.net/lab-5.1-2/"
+  base: "/cs351.lakkie.net/project1/"
 })
