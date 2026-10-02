@@ -1,0 +1,624 @@
+[
+    {
+        "id": 1,
+        "name": "Monster Rounds",
+        "image": "1.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 799.99,
+        "salePrice": 299.99,
+        "quantityInStock": 10,
+        "rating": 4.9,
+        "reviewCount": 18273,
+        "shortDescription": "Increases damage against non-player characters and increases resistances against them.",
+        "description": "+25% weapon damage vs. NPCs.\n+25% bullet resist vs NPCs.\n+1 out of combat regen.\nUpgrades to Cultist Sacrifice.",
+        "popular": true
+    },
+    {
+        "id": 2,
+        "name": "Extended Magazine",
+        "image": "2.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 799.99,
+        "salePrice": 499.99,
+        "quantityInStock": 10,
+        "rating": 4.7,
+        "reviewCount": 8456,
+        "shortDescription": "Increases the number of rounds in your weapon..",
+        "description": "+30% max ammo.\n+8% weapon damage.\nUpgrades to Titanic Magazine, Escalating Resilience.",
+        "popular": false
+    },
+    {
+        "id": 3,
+        "name": "Rapid Rounds",
+        "image": "3.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 799.99,
+        "salePrice": 499.99,
+        "quantityInStock": 10,
+        "rating": 4.8,
+        "reviewCount": 312,
+        "shortDescription": "Increases the rate of fire of your rounds against enemies.",
+        "description": "+6% weapon damage.\n50 healing from heroes.\n20 healing from NPCs.",
+        "popular": false
+    },
+    {
+        "id": 4,
+        "name": "Mystic Shot",
+        "image": "4.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 1599.99,
+        "salePrice": 999.99,
+        "quantityInStock": 10,
+        "rating": 4.6,
+        "reviewCount": 1294,
+        "shortDescription": "Next rounds from your weapon deal additional spirit damage.",
+        "description": "+7 spirit power.\n50 spirit damage for next round.\n8s cooldown between uses.",
+        "popular": false
+    },
+    {
+        "id": 5,
+        "name": "Titanic Magazine",
+        "image": "5.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 1599.99,
+        "salePrice": 899.99,
+        "quantityInStock": 10,
+        "rating": 4.9,
+        "reviewCount": 27450,
+        "shortDescription": "Doubles the size of your magazine!",
+        "description": "+100% max ammo.\n+14% weapon damage.\nUpgrades from: Extended Magazine.",
+        "popular": false
+    },
+    {
+        "id": 6,
+        "name": "Split Shot",
+        "image": "6.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 1599.99,
+        "salePrice": 1299.99,
+        "quantityInStock": 3,
+        "rating": 4.5,
+        "reviewCount": 98,
+        "shortDescription": "Doubles the size of your magazine!",
+        "description": "+100% max ammo.\n+14% weapon damage.\nUpgrades from: Extended Magazine.",
+        "popular": true
+    },
+    {
+        "id": 7,
+        "name": "Alchemical Fire",
+        "image": "7.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 3199.99,
+        "salePrice": 2999.99,
+        "quantityInStock": 10,
+        "rating": 5.0,
+        "reviewCount": 3,
+        "shortDescription": "Throw a flask that burns enemies!",
+        "description": "30s cooldown.\n48 spirit damage per second.\n-8% bullet resist on hit.\n10m radius.\n5s duration.\nActive item!",
+        "popular": false
+    },
+    {
+        "id": 8,
+        "name": "Weighted Shots",
+        "image": "8.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 3199.99,
+        "salePrice": 2249.99,
+        "quantityInStock": 10,
+        "rating": 4.8,
+        "reviewCount": 6441,
+        "shortDescription": "Slow down enemies with your rounds!",
+        "description": "+30% weapon damage.\n+22% debuff resistance.\n-14% stamina recovery.\n-0.5m move speed.\nOn hit for enemies:\n-24% move speed.\n-20% dash distance.\n3.5s slow duration.\n9.3% buildup per shot.\nUpgrades from: Slowing Bullets.",
+        "popular": false
+    },
+    {
+        "id": 9,
+        "name": "Burst Fire",
+        "image": "9.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 3199.99,
+        "salePrice": 499.99,
+        "quantityInStock": 190,
+        "rating": 4.9,
+        "reviewCount": 40000,
+        "shortDescription": "Fire many rounds quickly!",
+        "description": "Inventory overstocked! Buy some for you and for your friends!\n+32% fire rate.\n+1.2m move speed.\n+50% slide distance.\n+10% fire rate.\nUpgrades from: Rapid Rounds.",
+        "popular": true
+    },
+    {
+        "id": 10,
+        "name": "Armor Piercer",
+        "image": "10.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 6399.99,
+        "salePrice": 5199.99,
+        "quantityInStock": 25,
+        "rating": 4.7,
+        "reviewCount": 732,
+        "shortDescription": "Pierce through all the armor you can imagine!",
+        "description": "+60% round velocity.\n+8% weapon damage.\n55% chance to become unvoidable.\nUpgrades from: High-velocity rounds.",
+        "popular": false
+    },
+    {
+        "id": 11,
+        "name": "Ricochet",
+        "image": "11.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 6399.99,
+        "salePrice": 4399.99,
+        "quantityInStock": 2,
+        "rating": 4.6,
+        "reviewCount": 1920,
+        "shortDescription": "Rounds bounce onto other enemies!",
+        "description": "+18% fire rate.\n65% ricochet damage.\n2 ricochet targets.\n13m ricochet range.",
+        "popular": true
+    },
+    {
+        "id": 12,
+        "name": "Spiritual Overflow",
+        "image": "12.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 6399.99,
+        "salePrice": 9999.99,
+        "quantityInStock": 1,
+        "rating": 5.0,
+        "reviewCount": 38818,
+        "shortDescription": "Increases your weapon damage, spirit damage, and health!",
+        "description": "+13% ability duration.\n+13% spirit lifesteal.\n+90 bonus health.\n+6 spirit power.\n+25% fire rate.\n+30 spirit power.\n+10% spirit lifesteal.\nUpgrades from: Spirit Lifesteal.",
+        "testimonyIcon": "vyper.png",
+        "testimonySource": "Vyper",
+        "testimonyQuote": "I could have stolen this item but it was so great I decided to buy it.",
+        "popular": true
+    },
+    {
+        "id": 13,
+        "name": "Extra Health",
+        "image": "13.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 799.99,
+        "salePrice": 499.99,
+        "quantityInStock": 43,
+        "rating": 4.7,
+        "reviewCount": 7652,
+        "shortDescription": "Boosts your overall health!",
+        "description": "+210 bonus health.\nUpgrades to: Fortitude, Colossus.",
+        "popular": false
+    },
+    {
+        "id": 14,
+        "name": "Melee Lifesteal",
+        "image": "14.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 700.99,
+        "salePrice": 699.99,
+        "quantityInStock": 21,
+        "rating": 4.1,
+        "reviewCount": 48271,
+        "shortDescription": "Heals you when you melee enemies!",
+        "description": "+12% melee damage.\n+100 health on melee hit.\nUpgrades to: Lifestrike.",
+        "testimonyIcon": "silver.png",
+        "testimonySource": "Silver",
+        "testimonyQuote": "The best item I ever bought.",
+        "popular": true
+    },
+    {
+        "id": 15,
+        "name": "Grit",
+        "image": "15.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 799.99,
+        "salePrice": 699.99,
+        "quantityInStock": 11,
+        "rating": 4.8,
+        "reviewCount": 421,
+        "shortDescription": "Gives you a temporary shield for tough fights!",
+        "description": "+1 out of combat regen.\n200 barrier on activation.",
+        "popular": false
+    },
+    {
+        "id": 16,
+        "name": "Battle Vest",
+        "image": "16.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 1599.99,
+        "salePrice": 19.99,
+        "quantityInStock": 4918,
+        "rating": 4.9,
+        "reviewCount": 48,
+        "shortDescription": "Gives you a vest against bullets!",
+        "description": "+18% bullet resist.\n+3 out of combat regen.\n+18% weapon damage and +7% fire rate above 65% health.",
+        "testimonyIcon": "abrams.png",
+        "testimonySource": "Abrams",
+        "testimonyQuote": "This item is how I stay strong all the time.",
+        "popular": false
+    },
+    {
+        "id": 17,
+        "name": "Return Fire",
+        "image": "17.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 1599.99,
+        "salePrice": 1099.99,
+        "quantityInStock": 13,
+        "rating": 4.6,
+        "reviewCount": 4837,
+        "shortDescription": "Shoots rounds back that are fired at you!",
+        "description": "65% bullet damage returned.\n25% spirit damage returned.",
+        "popular": false
+    },
+    {
+        "id": 18,
+        "name": "Spirit Shielding",
+        "image": "18.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 1599.99,
+        "salePrice": 1299.99,
+        "quantityInStock": 4,
+        "rating": 4.4,
+        "reviewCount": 2183,
+        "shortDescription": "Provides a barrier when taking significant damage to your spirit!",
+        "description": "+2.5 out of combat regen.\n+380 health barrier and +18% spirit resist after 225 spirit damage within 3.5s.",
+        "popular": false
+    },
+    {
+        "id": 19,
+        "name": "Counterspell",
+        "image": "19.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 3199.99,
+        "salePrice": 3149.99,
+        "quantityInStock": 198,
+        "rating": 5.0,
+        "reviewCount": 48271,
+        "shortDescription": "Defy attacks against you!",
+        "description": "+50 bonus health.\n+5 spirit power.\n150 healing, +20 spirit power, +1.8m move speed for next parry.\nParry enemy abilities and items.",
+        "testimonyIcon": "pocket.png",
+        "testimonySource": "Pocket",
+        "testimonyQuote": "Say no to violence.",
+        "popular": true
+    },
+    {
+        "id": 20,
+        "name": "Healing Nova",
+        "image": "20.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 3199.99,
+        "salePrice": 2199.99,
+        "quantityInStock": 58,
+        "rating": 4.9,
+        "reviewCount": 681,
+        "shortDescription": "Heal yourself and teammates near you!",
+        "description": "+5% ability range.\n+8 spirit power.\n+433 healing in a 18.9m radius.",
+        "testimonyIcon": "rem.png",
+        "testimonySource": "Rem",
+        "testimonyQuote": "They do lots of healing!",
+        "popular": false
+    },
+    {
+        "id": 21,
+        "name": "Stamina Mastery",
+        "image": "21.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 3199.99,
+        "salePrice": 1699.99,
+        "quantityInStock": 97,
+        "rating": 5.0,
+        "reviewCount": 2817,
+        "shortDescription": "Get unlimited amounts of stamina!",
+        "description": "+2 stamina.\n+18% stamina recovery.\n+23% air jump/dash distance.",
+        "testimonyIcon": "vyper.png",
+        "testimonySource": "Vyper",
+        "testimonyQuote": "I love sliding, and I can do that forever with this item!",
+        "popular": true
+    },
+    {
+        "id": 22,
+        "name": "Leech",
+        "image": "22.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 6399.99,
+        "salePrice": 4349.99,
+        "quantityInStock": 80,
+        "rating": 4.8,
+        "reviewCount": 491,
+        "shortDescription": "Take life from your enemies!",
+        "description": "+28% spirit lifesteal.\n+28% bullet lifesteal.\n+180 bonus health.\n+12% weapon damage.\n+12 spirit power.",
+        "testimonyIcon": "infernus.png",
+        "testimonySource": "Infernus",
+        "testimonyQuote": "This item keeps me in the fight for longer than I thought was possible!",
+        "popular": false
+    },
+    {
+        "id": 23,
+        "name": "Phantom Strike",
+        "image": "23.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 6399.99,
+        "salePrice": 1999.99,
+        "quantityInStock": 62,
+        "rating": 5.0,
+        "reviewCount": 489,
+        "shortDescription": "Teleport to an enemy and strike!",
+        "description": "+15% weapon damage.\n+8 spirit power.\nOn teleport, disarm, 101 spirit damage, and -40% move speed for enemy.",
+        "testimonyIcon": "abrams.png",
+        "testimonySource": "Abrams",
+        "testimonyQuote": "This is how I get in the fight quickly without needing stamina!",
+        "popular": true
+    },
+    {
+        "id": 24,
+        "name": "Divine Barrier",
+        "image": "24.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 6399.99,
+        "salePrice": 5199.99,
+        "quantityInStock": 4,
+        "rating": 4.1,
+        "reviewCount": 2,
+        "shortDescription": "Provides a huge spiritual and health barrier to a teammate!",
+        "description": "+10% ability range.\n+1.5 out of combat regen.\nOn cast, dispel all debuffs, 600 health barrier, and +2.8m move speed.",
+        "popular": false
+    },
+    {
+        "id": 25,
+        "name": "Golden Goose Egg",
+        "image": "25.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 799.99,
+        "salePrice": 699.99,
+        "quantityInStock": 34,
+        "rating": 4.1,
+        "reviewCount": 78172,
+        "shortDescription": "Save up your spirits for a later fight!",
+        "description": "-15% damage.\nOn activation, gain more buffs for the longer that you have kept it.",
+        "popular": true
+    },
+    {
+        "id": 26,
+        "name": "Cursed Relic",
+        "image": "26.png",
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "variants": [
+            "Regular",
+            "Enhanced",
+            "Corrupted"
+        ],
+        "price": 6399.99,
+        "salePrice": 3999.99,
+        "quantityInStock": 57,
+        "rating": 5.0,
+        "reviewCount": 48172,
+        "shortDescription": "Curse one of your enemies to shut them down!",
+        "description": "Curse any enemy within a 25m meter radius, shutting down their weapon, spirits, and item usage.",
+        "popular": false
+    }
+]
