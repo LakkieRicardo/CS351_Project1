@@ -6,25 +6,45 @@ export class AccountView extends Component {
 
     return (
       <div className="container py-3">
-        <h2>Account</h2>
-        <div className="card bg-dark text-white border-secondary">
-          <div className="card-body">
-            <p><strong>Username:</strong> demo_user</p>
-            <p><strong>Email:</strong> demo@example.com</p>
-            <p><strong>Member since:</strong> January 2024</p>
-            <p><strong>Shipping address:</strong> 123 Demo St, Springfield, USA</p>
+        <h2>Log In</h2>
+        <form
+          className="card bg-dark text-white border-secondary p-3"
+          onSubmit={(event) => event.preventDefault()}
+        >
+          <div className="mb-3">
+            <label className="form-label" htmlFor="login-username">Username</label>
+            <input
+              id="login-username"
+              className="form-control"
+              name="username"
+              autoComplete="username"
+              required
+            />
           </div>
-        </div>
-
-        <div className="mt-4">
+          <div className="mb-3">
+            <label className="form-label" htmlFor="login-password">Password</label>
+            <input
+              id="login-password"
+              className="form-control"
+              name="password"
+              type="password"
+              autoComplete="current-password"
+              required
+            />
+          </div>
           <button
-            type="button"
-            className="btn btn-light w-100"
-            onClick={onGoToCreateAccount}
+            type="submit"
+            className="btn btn-light"
           >
-            Create Account
+            Log In
           </button>
-        </div>
+          <p className="text-secondary mt-3 mb-0">
+            Don&apos;t have an account?{' '}
+            <button type="button" className="btn btn-link p-0" onClick={onGoToCreateAccount}>
+              Create Account
+            </button>
+          </p>
+        </form>
       </div>
     );
   }
